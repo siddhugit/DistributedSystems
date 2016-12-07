@@ -1,0 +1,2 @@
+g++ -pthread -std=c++11 client-server.cpp -o protocol
+

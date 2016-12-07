@@ -1,0 +1,21 @@
+MP4 : group - 40 (Siddharth Singh and Joe Fetsch)
+
+gitlab : https://gitlab-beta.engr.illinois.edu/jfetsch2/CS425_MPs/tree/master/MP4
+
+Working directory : MP4
+Setup cooamnd : setup.sh
+Build command: make
+
+Run master (./master) on VM-1 (fa16-cs425-g40-01.cs.illinois.edu)
+Run sdfs (./sdfs) on VM-10 (fa16-cs425-g40-10.cs.illinois.edu)
+Run ./worker on other VMs where maple/juice tasks are executed
+
+Run maple from any VM (a sample command line is as follows)
+./maple ./maple_wordcount 3 prefix dir/input
+
+Run juice from any VM (a sample command line is as follows)
+./juice ./juice_wordcount 3 prefix dir/output/result
+
+We have implemented word count application for maple juice.
+
+
